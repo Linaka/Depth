@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="DEPTH Sessions.001, a house music night at Hoffs, Margate. From sunset above ground to depth below."
+    />
+    <meta name="theme-color" content="#000000" />
+    <title>DEPTH — Sessions.001</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      window.tailwind = window.tailwind || {};
+      window.tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: [
+                "Inter",
+                "Helvetica Neue",
+                "Arial",
+                "sans-serif",
+              ],
+            },
+          },
+        },
+      };
+    </script>
+    <script async src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script
+      async
+      src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"
+    ></script>
+    <script defer src="assets/js/app.js"></script>
+  </head>
+  <body class="bg-black text-neutral-200 antialiased">
+    <a class="skip-link" href="#tickets">Skip to tickets</a>
+
+    <div class="site-noise" aria-hidden="true"></div>
+    <div class="depth-field" aria-hidden="true">
+      <span class="depth-field__horizon" data-parallax data-speed="-0.06"></span>
+      <span class="depth-field__well" data-parallax data-speed="0.1"></span>
+      <span class="depth-field__trace depth-field__trace--one" data-parallax data-speed="0.18"></span>
+      <span class="depth-field__trace depth-field__trace--two" data-parallax data-speed="0.28"></span>
+      <span class="depth-field__trace depth-field__trace--three" data-parallax data-speed="0.4"></span>
+    </div>
+
+    <header class="site-header" aria-label="Primary">
+      <a class="site-mark" href="#threshold" aria-label="DEPTH Sessions.001 home">
+        <span>DEPTH</span>
+        <span>001</span>
+      </a>
+      <nav class="site-nav" aria-label="Page sections">
+        <a href="#surface">Surface</a>
+        <a href="#depth">Depth</a>
+        <a href="#lineup">Lineup</a>
+      </nav>
+      <a class="header-cta" data-ticket-link href="https://www.eventbrite.com/e/depth-sessions001-house-music-night-hoffs-margate-tickets-1986761825101">
+        Notify Me
+      </a>
+    </header>
+
+    <a
+      class="fixed-cta"
+      data-ticket-link
+      href="https://www.eventbrite.com/e/depth-sessions001-house-music-night-hoffs-margate-tickets-1986761825101"
+      target="_blank"
+      rel="noreferrer"
+      aria-hidden="true"
+      tabindex="-1"
+    >
+      <span>Enter / Get Tickets</span>
+      <span>Limited capacity</span>
+    </a>
+
+    <main id="threshold" class="site-main">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero__spatial-lines" aria-hidden="true">
+          <span data-parallax data-speed="0.08"></span>
+          <span data-parallax data-speed="0.16"></span>
+          <span data-parallax data-speed="0.24"></span>
+        </div>
+
+        <div class="hero__content">
+          <p class="eyebrow reveal reveal--instant">Hoffs, Margate / Friday 22 May 2026 / 19:00</p>
+          <h1 id="hero-title" class="hero__title" data-drift data-speed="0.12">
+            <span>DEPTH</span>
+            <span>Session.001</span>
+          </h1>
+          <p class="hero__copy reveal reveal--instant">
+            House music by the sea.<br />
+            From sunset to dark <br class="mobile-break" />
+            
+          </p>
+          <div class="hero__actions reveal reveal--instant">
+            <a
+              class="primary-link"
+              data-ticket-link
+              href="https://www.eventbrite.com/e/depth-sessions001-house-music-night-hoffs-margate-tickets-1986761825101"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Enter / Get Tickets
+            </a>
+            <p>Free entry. 18+. Launch night.</p>
+          </div>
+        </div>
+
+        <div class="descent-cue" aria-hidden="true">
+          <span></span>
+          <p>Scroll</p>
+        </div>
+      </section>
+
+      <section id="surface" class="phase phase--surface" data-phase="surface" aria-labelledby="surface-title">
+        <div class="phase__number reveal">01</div>
+        <div class="phase__body">
+          <p class="phase__kicker reveal">Surface / Sunset upstairs</p>
+          <h2 id="surface-title" class="phase__title reveal" data-drift data-speed="0.08">
+            Begin above ground as the sun drops over the sea.
+          </h2>
+          <p class="phase__copy reveal">
+            Soulful sounds. Sea air. A slow build.
+          </p>
+        </div>
+        <div class="phase__art phase__art--surface" aria-hidden="true">
+          <span data-parallax data-speed="0.06"></span>
+          <span data-parallax data-speed="0.12"></span>
+          <span data-parallax data-speed="0.18"></span>
+        </div>
+      </section>
+
+      <section class="phase phase--transition" data-phase="transition" aria-labelledby="transition-title">
+        <div class="phase__number reveal">02</div>
+        <div class="phase__body phase__body--narrow">
+          <p class="phase__kicker reveal">Transition / Below the room</p>
+          <h2 id="transition-title" class="phase__title reveal" data-drift data-speed="0.14">
+            As the light fades, the energy pulls inward.
+          </h2>
+          <p class="phase__copy reveal">
+            The groove locks in. Community together.
+          </p>
+        </div>
+        <div class="phase__art phase__art--transition" aria-hidden="true">
+          <span data-parallax data-speed="0.2"></span>
+          <span data-parallax data-speed="0.32"></span>
+        </div>
+      </section>
+
+      <section id="depth" class="phase phase--depth" data-phase="depth" aria-labelledby="depth-title">
+        <div class="phase__number reveal">03</div>
+        <div class="phase__body phase__body--compressed">
+          <p class="phase__kicker reveal">Depth / Basement after dark</p>
+          <h2 id="depth-title" class="phase__title reveal" data-drift data-speed="0.18">
+            The Basement.
+          </h2>
+          <p class="phase__copy reveal">
+            A space built for house music.
+          </p>
+        </div>
+        <div class="phase__art phase__art--depth" aria-hidden="true">
+          <span data-parallax data-speed="0.28"></span>
+          <span data-parallax data-speed="0.44"></span>
+          <span data-parallax data-speed="0.62"></span>
+        </div>
+      </section>
+
+      <section id="lineup" class="lineup section-shell" aria-labelledby="lineup-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Lineup</p>
+          <h2 id="lineup-title">Sound, held below the surface.</h2>
+        </div>
+
+        <ol class="lineup__list" aria-label="DJs playing DEPTH Sessions.001">
+          <li class="reveal">
+            <button type="button" data-dj-profile="alfie-turner">
+              <span>Alfie Turner</span>
+            </button>
+          </li>
+          <li class="reveal">
+            <button type="button" data-dj-profile="billy-young">
+              <span>Billy Young</span>
+            </button>
+          </li>
+          <li class="reveal">
+            <button type="button" data-dj-profile="gaffa">
+              <span>GAFFA</span>
+            </button>
+          </li>
+          <li class="reveal">
+            <button type="button" data-dj-profile="lou">
+              <span>Lou</span>
+            </button>
+          </li>
+          <li class="reveal">
+            <button type="button" data-dj-profile="louis-pardo">
+              <span>Louis Pardo</span>
+            </button>
+          </li>
+        </ol>
+      </section>
+
+      <div
+        id="dj-modal"
+        class="dj-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="dj-modal-title"
+        aria-describedby="dj-modal-copy"
+        hidden
+      >
+        <div class="dj-modal__scrim" data-close-dj-modal></div>
+        <div class="dj-modal__panel" role="document">
+          <button class="dj-modal__close" type="button" data-close-dj-modal aria-label="Close DJ profile">
+            Close
+          </button>
+          <p class="dj-modal__kicker" id="dj-modal-kicker">DEPTH / Sessions.001</p>
+          <h2 id="dj-modal-title">DJ profile</h2>
+          <p id="dj-modal-copy" class="dj-modal__copy"></p>
+          <dl class="dj-modal__meta">
+            <div>
+              <dt>Signal</dt>
+              <dd id="dj-modal-signal"></dd>
+            </div>
+            <div>
+              <dt>Texture</dt>
+              <dd id="dj-modal-texture"></dd>
+            </div>
+            <div>
+              <dt>Pressure</dt>
+              <dd id="dj-modal-pressure"></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+
+      <section id="venue" class="venue section-shell" aria-labelledby="venue-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Venue</p>
+          <h2 id="venue-title">Two levels. One descent.</h2>
+        </div>
+
+        <div class="venue__grid">
+          <div class="venue__zone reveal">
+            <p>Upstairs</p>
+            <h3>Sunset, sea views, open air.</h3>
+          </div>
+          <div class="venue__zone venue__zone--dark reveal">
+            <p>Downstairs</p>
+            <h3>Basement pressure after dark.</h3>
+          </div>
+        </div>
+
+        <div class="venue__location reveal">
+          <p>Hoffs Margate</p>
+          <address>18 Marine Drive, Margate CT9 1DH</address>
+        </div>
+      </section>
+
+      <section id="tickets" class="tickets section-shell" aria-labelledby="tickets-title">
+        <div class="tickets__inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Tickets</p>
+            <h2 id="tickets-title">A new session for deeper house in Margate.</h2>
+            <p class="tickets__intro">
+              DEPTH is starting as a home for intimate house music by the sea:
+              selectors, warm systems, and a room that moves from sunset ease
+              into basement focus.
+            </p>
+          </div>
+
+          <dl class="ticket-facts reveal">
+            <div>
+              <dt>Entry</dt>
+              <dd>Free ticket</dd>
+            </div>
+            <div>
+              <dt>Capacity</dt>
+              <dd>Limited / intimate</dd>
+            </div>
+            <div>
+              <dt>Age</dt>
+              <dd>18+</dd>
+            </div>
+            <div>
+              <dt>Date / Time</dt>
+              <dd>22 May 2026<br />19:00 onwards</dd>
+            </div>
+          </dl>
+
+          <div class="tickets__action reveal">
+            <a
+              class="primary-link primary-link--large"
+              data-ticket-link
+              href="https://www.eventbrite.com/e/depth-sessions001-house-music-night-hoffs-margate-tickets-1986761825101"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Get Tickets
+            </a>
+            <p>Limited capacity. Intimate setting.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>DEPTH — Sessions.001</p>
+      <a data-ticket-link href="https://www.eventbrite.com/e/depth-sessions001-house-music-night-hoffs-margate-tickets-1986761825101">
+        Eventbrite
+      </a>
+    </footer>
+  </body>
+</html>
