@@ -11,9 +11,9 @@
       name: "Alfie Turner",
       copy:
         "Warmth at the edge of the room. Patient rhythm, soulful pressure, slow-release movement.",
-      signal: "Warm / patient",
-      texture: "Soulful grain",
-      pressure: "Slow build",
+      signal: "Groovy / driving",
+      texture: "Deep bass / rolling",
+      pressure: "Controlled build",
     },
     "billy-young": {
       name: "Billy Young",
@@ -27,17 +27,17 @@
       name: "GAFFA",
       copy:
         "Percussive weight, clipped motion, late-room intensity. Direct lines through the basement dark.",
-      signal: "Percussive",
-      texture: "Sharp edges",
-      pressure: "High tension",
+      signal: "Familiar / vocal-led",
+      texture: "Uptempo / bass-driven",
+      pressure: "Rolling / dynamic",
     },
     lou: {
       name: "Lou",
       copy:
         "Soulful cuts and low-lit texture. The lift before the room tightens and the floor moves inward.",
-      signal: "Soulful / fluid",
-      texture: "Soft tension",
-      pressure: "Open current",
+      signal: "Minimal deep tech",
+      texture: "Uptempo and atmospheric",
+      pressure: "Steady with slight tension",
     },
     "louis-pardo": {
       name: "Louis Pardo",
@@ -45,7 +45,7 @@
         "Deep house pressure with a cinematic pull. Sound for the final descent below the surface.",
       signal: "Deep house",
       texture: "Submerged swing",
-      pressure: "Final descent",
+      pressure: "Groove-led",
     },
   };
 
