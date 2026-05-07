@@ -996,9 +996,10 @@ body.fixed-cta-visible .fixed-cta {
   max-width: 660px;
   margin: clamp(30px, 5vw, 58px) 0 0;
   color: #bcbcbc;
-  font-size: clamp(22px, 3.4vw, 44px);
-  letter-spacing: -0.035em;
-  line-height: 1.04;
+  /* font-size: clamp(22px, 3.4vw, 44px);
+  letter-spacing: -0.035em; */
+  font-size: 26px;
+  line-height: 1.4;
 }
 
 .dj-modal__meta {
@@ -1028,9 +1029,10 @@ body.fixed-cta-visible .fixed-cta {
 .dj-modal__meta dd {
   margin: 0;
   color: #d6d6d6;
-  font-size: clamp(20px, 2.6vw, 36px);
-  letter-spacing: -0.045em;
-  line-height: 0.98;
+  /* font-size: clamp(20px, 2.6vw, 36px);
+  letter-spacing: -0.045em; */
+  font-size: 26px;
+  line-height: 1.4;
 }
 
 body.modal-open {
@@ -1156,9 +1158,10 @@ body.modal-open {
 .ticket-facts dd {
   margin: 0;
   color: #d8d8d8;
-  font-size: clamp(26px, 4.4vw, 72px);
-  letter-spacing: -0.052em;
-  line-height: 0.96;
+  /* font-size: clamp(26px, 4.4vw, 72px); */
+  /* letter-spacing: -0.052em; */
+  font-size: 36px;
+  line-height: 1.4;
 }
 
 .tickets__action {
@@ -1448,6 +1451,11 @@ body.modal-open {
 
   .hero__title span:last-child {
     font-size: clamp(34px, 12vw, 58px);
+  }
+
+  .phase,
+  .phase--transition {
+    min-height: auto;
   }
 
   .mobile-break {
