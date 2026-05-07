@@ -1,0 +1,10 @@
+{
+  "name": "depth",
+  "version": "1.0.0",
+  "description": "AI generated but customized by senior developer.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
