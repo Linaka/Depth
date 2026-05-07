@@ -26,7 +26,7 @@
     gaffa: {
       name: "GAFFA",
       copy:
-        "Percussive weight, clipped motion, late-room intensity. Direct lines through the basement dark.",
+        "Upbeat punchy basslines that border the limits of house, leaning towards vocal elements at the forefront or subtle in the background, in the aim to bring out a little more than a two step.",
       signal: "Familiar / vocal-led",
       texture: "Uptempo / bass-driven",
       pressure: "Rolling / dynamic",
