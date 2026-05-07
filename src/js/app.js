@@ -10,7 +10,7 @@
     "alfie-turner": {
       name: "Alfie Turner",
       copy:
-        "Warmth at the edge of the room. Patient rhythm, soulful pressure, slow-release movement.",
+        "Alfie likes to play a mix texture and groovy his love for deep heavy basslines driven tracks along side the swing of groovy drives his inspiration and passion for selection and production.",
       signal: "Groovy / driving",
       texture: "Deep bass / rolling",
       pressure: "Controlled build",
@@ -42,7 +42,7 @@
     "louis-pardo": {
       name: "Louis Pardo",
       copy:
-        "Deep house pressure with a cinematic pull. Sound for the final descent below the surface.",
+        "Blending old-school warmth with fresh energy for timeless, moving sound.",
       signal: "Deep house",
       texture: "Submerged swing",
       pressure: "Groove-led",
