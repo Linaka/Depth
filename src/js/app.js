@@ -34,7 +34,7 @@
     lou: {
       name: "Lou",
       copy:
-        "Soulful cuts and low-lit texture. The lift before the room tightens and the floor moves inward.",
+        "Minimal deep tech sound with a more upbeat tempo",
       signal: "Minimal deep tech",
       texture: "Uptempo and atmospheric",
       pressure: "Steady with slight tension",
