@@ -202,40 +202,6 @@
         </ol>
       </section>
 
-      <div
-        id="dj-modal"
-        class="dj-modal"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="dj-modal-title"
-        aria-describedby="dj-modal-copy"
-        hidden
-      >
-        <div class="dj-modal__scrim" data-close-dj-modal></div>
-        <div class="dj-modal__panel" role="document">
-          <button class="dj-modal__close" type="button" data-close-dj-modal aria-label="Close DJ profile">
-            Close
-          </button>
-          <p class="dj-modal__kicker" id="dj-modal-kicker">DEPTH / Sessions.001</p>
-          <h2 id="dj-modal-title">DJ profile</h2>
-          <p id="dj-modal-copy" class="dj-modal__copy"></p>
-          <dl class="dj-modal__meta">
-            <div>
-              <dt>Signal</dt>
-              <dd id="dj-modal-signal"></dd>
-            </div>
-            <div>
-              <dt>Texture</dt>
-              <dd id="dj-modal-texture"></dd>
-            </div>
-            <div>
-              <dt>Pressure</dt>
-              <dd id="dj-modal-pressure"></dd>
-            </div>
-          </dl>
-        </div>
-      </div>
-
       <section id="venue" class="venue section-shell" aria-labelledby="venue-title">
         <div class="section-heading reveal">
           <p class="eyebrow">Venue</p>
@@ -312,6 +278,40 @@
         Eventbrite
       </a>
     </footer>
+
+        <div
+      id="dj-modal"
+      class="dj-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="dj-modal-title"
+      aria-describedby="dj-modal-copy"
+      hidden
+    >
+      <div class="dj-modal__scrim" data-close-dj-modal></div>
+      <div class="dj-modal__panel" role="document">
+        <button class="dj-modal__close" type="button" data-close-dj-modal aria-label="Close DJ profile">
+          Close
+        </button>
+        <p class="dj-modal__kicker" id="dj-modal-kicker">DEPTH / Sessions.001</p>
+        <h2 id="dj-modal-title">DJ profile</h2>
+        <p id="dj-modal-copy" class="dj-modal__copy"></p>
+        <dl class="dj-modal__meta">
+          <div>
+            <dt>Signal</dt>
+            <dd id="dj-modal-signal"></dd>
+          </div>
+          <div>
+            <dt>Texture</dt>
+            <dd id="dj-modal-texture"></dd>
+          </div>
+          <div>
+            <dt>Pressure</dt>
+            <dd id="dj-modal-pressure"></dd>
+          </div>
+        </dl>
+      </div>
+    </div>
     <script type="module" src="/src/js/app.js"></script>
   </body>
 </html>
